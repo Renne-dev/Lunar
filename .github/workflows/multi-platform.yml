@@ -22,11 +22,11 @@ jobs:
           os: macos-latest
           target: iOS
 
-        - name: android
+        - name: android32
           os: ubuntu-latest
           target: Android32
 
-        - name: android
+        - name: android64
           os: ubuntu-latest
           target: Android64
 
