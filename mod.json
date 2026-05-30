@@ -1,17 +1,34 @@
 {
-	"geode": "5.0.1",
-	"gd": {
-		"win": "2.2081",
-		"android": "2.2081",
-		"mac": "2.2081",
-		"ios": "2.2081"
-	},
-	"id": "renne.lunar",
-	"name": "Lunar",
-	"version": "v1.0.0",
-	"developer": "Renne",
-	"description": "The best Geometry Dash mod menu!",
-	"dependencies": {
-		"geode.node-ids": ">=v1.23.3"
-	}
+    "geode": "5.0.1",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081",
+        "mac": "2.2081",
+        "ios": "2.2081"
+    },
+    "id": "renne.lunar",
+    "name": "Lunar",
+    "version": "v1.0.0",
+    "developer": "Renne",
+    "description": "The best Geometry Dash mod menu!",
+    "tags": ["gameplay", "universal", "utility"],
+    "links": {},
+    "resources": {
+        "files": [
+            "resources/Lunarbutton.png",
+            "resources/Fonts/*.ttf",
+            "resources/Licenses/*.txt",
+            "resources/Themes/*.json",
+            "resources/translations/*.json",
+            "resources/BitmapFonts/font_default*"
+        ]
+    },
+    "settings": {
+        "menu-key": {
+            "name": "Open Menu Key",
+            "description": "The key to open/close the UI",
+            "type": "keybind",
+            "default": "Tab"
+        }
+    }
 }
