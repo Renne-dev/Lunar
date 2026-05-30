@@ -1,6 +1,5 @@
 #pragma once
 #include <Geode/Geode.hpp>
-#include "HackState.hpp"
 using namespace geode::prelude;
 
 void toggleMenu();
